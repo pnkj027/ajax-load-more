@@ -32,3 +32,4 @@
             <?php endif; ?>
         </div>
     </div>
+<?php $nonce = wp_create_nonce('extra-special'); ?>
