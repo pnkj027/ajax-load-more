@@ -16,7 +16,7 @@
                     while ($loop->have_posts()) {
                         $loop->the_post();
                         ?>
-                        <?php get_template_part('inc/Case-Studies/case', 'loop'); ?>
+                        <?php //loop code here ?>
                         <?php
                     }
                     wp_reset_postdata();
